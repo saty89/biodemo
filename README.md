@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/YOURGITHUBHERE/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/YOURGITHUBHERE/biodemo)
 [![travis](https://travis-ci.org/saty89/biodemo.svg?branch=master)](https://travis-ci.org/saty89/biodemo)
 
 # Overview 
