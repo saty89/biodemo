@@ -1,4 +1,4 @@
-[![travis](https://travis-ci.org/saty89/biodemo.svg?branch=master)](https://travis-ci.org/saty890/biodemo)
+[![travis](https://travis-ci.org/saty89/biodemo.svg?branch=master)](https://travis-ci.org/saty89/biodemo)
 
 # Overview 
 
