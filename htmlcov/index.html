@@ -1,0 +1,707 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">26%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>17501</td>
+                <td>12876</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4625 17501">26%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="biodemo_biodemo_py.html">biodemo/biodemo.py</a></td>
+                <td>98</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 98">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="biodemo_test_biodemo_py.html">biodemo/test_biodemo.py</a></td>
+                <td>36</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 36">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Align___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Align/__init__.py</a></td>
+                <td>374</td>
+                <td>324</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="50 374">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_ClustalIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/ClustalIO.py</a></td>
+                <td>171</td>
+                <td>160</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 171">6%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_EmbossIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/EmbossIO.py</a></td>
+                <td>133</td>
+                <td>120</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 133">10%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_FastaIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/FastaIO.py</a></td>
+                <td>214</td>
+                <td>205</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 214">4%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_Interfaces_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/Interfaces.py</a></td>
+                <td>40</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 40">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_MafIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/MafIO.py</a></td>
+                <td>309</td>
+                <td>281</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 309">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_MauveIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/MauveIO.py</a></td>
+                <td>144</td>
+                <td>125</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 144">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_NexusIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/NexusIO.py</a></td>
+                <td>61</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 61">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_PhylipIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/PhylipIO.py</a></td>
+                <td>218</td>
+                <td>191</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 218">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO_StockholmIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/StockholmIO.py</a></td>
+                <td>217</td>
+                <td>194</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 217">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_AlignIO___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/AlignIO/__init__.py</a></td>
+                <td>124</td>
+                <td>101</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 124">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Alphabet_IUPAC_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Alphabet/IUPAC.py</a></td>
+                <td>26</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 26">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Alphabet___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Alphabet/__init__.py</a></td>
+                <td>193</td>
+                <td>137</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 193">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Data_CodonTable_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Data/CodonTable.py</a></td>
+                <td>285</td>
+                <td>104</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="181 285">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Data_IUPACData_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Data/IUPACData.py</a></td>
+                <td>48</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 48">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Data_SCOPData_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Data/SCOPData.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Data___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Data/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_File_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/File.py</a></td>
+                <td>377</td>
+                <td>299</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="78 377">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_GenBank_Scanner_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/GenBank/Scanner.py</a></td>
+                <td>863</td>
+                <td>790</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="73 863">8%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_GenBank___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/GenBank/__init__.py</a></td>
+                <td>731</td>
+                <td>516</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="215 731">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_GenBank_utils_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/GenBank/utils.py</a></td>
+                <td>16</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 16">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Nexus_Nexus_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Nexus/Nexus.py</a></td>
+                <td>1258</td>
+                <td>1132</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="126 1258">10%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Nexus_Nodes_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Nexus/Nodes.py</a></td>
+                <td>103</td>
+                <td>75</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 103">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Nexus_StandardData_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Nexus/StandardData.py</a></td>
+                <td>67</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 67">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Nexus_Trees_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Nexus/Trees.py</a></td>
+                <td>563</td>
+                <td>513</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="50 563">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Nexus___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Nexus/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Seq_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Seq.py</a></td>
+                <td>642</td>
+                <td>518</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="124 642">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqFeature_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqFeature.py</a></td>
+                <td>509</td>
+                <td>363</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="146 509">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_AbiIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/AbiIO.py</a></td>
+                <td>150</td>
+                <td>121</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 150">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_AceIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/AceIO.py</a></td>
+                <td>32</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 32">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_FastaIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/FastaIO.py</a></td>
+                <td>136</td>
+                <td>88</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 136">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_IgIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/IgIO.py</a></td>
+                <td>40</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 40">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_InsdcIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/InsdcIO.py</a></td>
+                <td>608</td>
+                <td>529</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="79 608">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_Interfaces_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/Interfaces.py</a></td>
+                <td>77</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 77">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_PdbIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/PdbIO.py</a></td>
+                <td>83</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 83">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_PhdIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/PhdIO.py</a></td>
+                <td>54</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 54">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_PirIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/PirIO.py</a></td>
+                <td>88</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 88">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_QualityIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/QualityIO.py</a></td>
+                <td>439</td>
+                <td>384</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 439">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_SeqXmlIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/SeqXmlIO.py</a></td>
+                <td>229</td>
+                <td>191</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 229">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_SffIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/SffIO.py</a></td>
+                <td>528</td>
+                <td>481</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 528">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_SwissIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/SwissIO.py</a></td>
+                <td>94</td>
+                <td>84</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 94">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_TabIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/TabIO.py</a></td>
+                <td>37</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 37">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO_UniprotIO_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/UniprotIO.py</a></td>
+                <td>334</td>
+                <td>318</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 334">5%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqIO___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqIO/__init__.py</a></td>
+                <td>174</td>
+                <td>127</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 174">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SeqRecord_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SeqRecord.py</a></td>
+                <td>257</td>
+                <td>197</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="60 257">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Sequencing_Ace_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Sequencing/Ace.py</a></td>
+                <td>375</td>
+                <td>345</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 375">8%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Sequencing_Phd_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Sequencing/Phd.py</a></td>
+                <td>69</td>
+                <td>61</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 69">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_Sequencing___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/Sequencing/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio_SwissProt___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/SwissProt/__init__.py</a></td>
+                <td>330</td>
+                <td>307</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 330">7%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/__init__.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 14">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_Bio__py3k___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/Bio/_py3k/__init__.py</a></td>
+                <td>84</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 84">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/__init__.py</a></td>
+                <td>1508</td>
+                <td>814</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="694 1508">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_appdirs_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py</a></td>
+                <td>236</td>
+                <td>206</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 236">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging___about___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging__compat_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py</a></td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 12">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging__structures_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py</a></td>
+                <td>41</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 41">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging_markers_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py</a></td>
+                <td>130</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="57 130">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging_requirements_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py</a></td>
+                <td>72</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 72">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging_specifiers_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py</a></td>
+                <td>284</td>
+                <td>190</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="94 284">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_packaging_version_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py</a></td>
+                <td>150</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 150">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_pyparsing_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py</a></td>
+                <td>2508</td>
+                <td>1347</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1161 2508">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources__vendor_six_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/_vendor/six.py</a></td>
+                <td>444</td>
+                <td>209</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="235 444">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources_extern___init___py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/extern/__init__.py</a></td>
+                <td>35</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 35">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_ubuntu_scratch_biodemo_dev_lib_python3_6_site-packages_pkg_resources_py31compat_py.html">/home/ubuntu/scratch/biodemo_dev/lib/python3.6/site-packages/pkg_resources/py31compat.py</a></td>
+                <td>11</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 11">55%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.2</a>,
+            created at 2018-11-30 03:47
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

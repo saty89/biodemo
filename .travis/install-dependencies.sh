@@ -4,6 +4,5 @@
 
 echo 'Python install'
 (
-   pip install -r requirements-dev.txt
-   pip install .
+   pip install pylint coverage codecov
 )
